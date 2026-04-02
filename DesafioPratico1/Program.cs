@@ -3,6 +3,7 @@ using DesafioPratico1.Exercicio2;
 using DesafioPratico1.Exercicio3;
 using DesafioPratico1.Exercicio4;
 using DesafioPratico1.Exercicio5;
+using DesafioPratico1.Exercicio6;
 
 class Program
 {
@@ -22,5 +23,8 @@ class Program
 
         VerificadorPlaca verificadorPlaca = new VerificadorPlaca();
         verificadorPlaca.VerificarPlaca();
+
+        FormatadorDatas formatadorDatas = new FormatadorDatas();
+        formatadorDatas.FormatarData();
     }
 }
