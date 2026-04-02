@@ -2,6 +2,7 @@
 using DesafioPratico1.Exercicio2;
 using DesafioPratico1.Exercicio3;
 using DesafioPratico1.Exercicio4;
+using DesafioPratico1.Exercicio5;
 
 class Program
 {
@@ -18,5 +19,8 @@ class Program
 
         ContadorCaracteres contadorCaracteres = new ContadorCaracteres();
         contadorCaracteres.ContarCaracteres();
+
+        VerificadorPlaca verificadorPlaca = new VerificadorPlaca();
+        verificadorPlaca.VerificarPlaca();
     }
 }
