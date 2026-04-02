@@ -1,6 +1,7 @@
 ﻿using DesafioPratico1.Exercicio1;
 using DesafioPratico1.Exercicio2;
 using DesafioPratico1.Exercicio3;
+using DesafioPratico1.Exercicio4;
 
 class Program
 {
@@ -14,5 +15,8 @@ class Program
 
         OperadorMatematico operadorMatematico = new OperadorMatematico();
         operadorMatematico.RealizarOperacoes();
+
+        ContadorCaracteres contadorCaracteres = new ContadorCaracteres();
+        contadorCaracteres.ContarCaracteres();
     }
 }
